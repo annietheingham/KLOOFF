@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('../fonts/avenir-black.eot');
+    src: url('../fonts/avenir-black.eot') format('embedded-opentype'),
+         url('../fonts/avenir-black.woff') format('woff'),
+         url('../fonts/avenir-black.ttf') format('truetype'),
+         url('../fonts/avenir-black.svg#AvenirBlack') format('svg');
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #D2D2D2;
+  padding: 13px 0 8px 0;
+}
+
+.container{
+  max-width: 4432px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+
+.container img {
+  width: 100%;
+}
+
+.container .mobile {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.header img {
+	width: 148px;
+	height: 40px;
+  margin-left: 60px;
+}
+
+.button {
+  margin-top: -14px;
+}
+
+.button a {
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 24em;
+  width: 100%;
+  color: #888888;
+  text-align: center;
+  font-family: "AvenirBlack";
+  font-size: 18px;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+  border: 1px solid #D2D2D2;
+  display: block;
+}
+
+.button a:hover {
+  background-color: #F5F5F5;
+}
+
+/* Mobile Styles*/
+
+/*Breakpoint: 768px (i-Pad and smaller)*/
+
+@media only screen and (max-width:768px) {
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container .main_page {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
+.container .mobile {
+  padding: 8%;
+  height: 100%;
+  width: auto;
+  overflow: visible;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+}
